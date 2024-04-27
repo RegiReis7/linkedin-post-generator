@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "content-planner-crew"
+version = "0.1.0"
+description = ""
+authors = ["RegiReis7 <reginaldo@live.com.pt>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+langchain-community = "^0.0.32"
+crewai = "^0.28.6"
+langchain = "^0.1.15"
+streamlit = "^1.33.0"
+duckduckgo-search = "^5.3.0"
+langchain-exa = "^0.0.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
